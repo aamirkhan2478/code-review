@@ -1,0 +1,373 @@
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  width: 100%;
+}
+
+header {
+  margin: 2.4rem;
+  padding-top: 0.5rem;
+}
+main {
+  background-color: rgb(247, 247, 247);
+}
+h2 {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
+  line-height: 2.4rem;
+}
+h5 {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
+}
+hr {
+  height: 0.1rem;
+  background-color: lightgray;
+  margin-right: 5rem;
+  border: 0;
+  width: 92rem;
+  margin-top: 1rem;
+}
+.background-color {
+  background-color: rgb(247, 247, 247);
+}
+.logo {
+  margin-left: 1.2rem;
+  cursor: pointer;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -3rem;
+}
+.search-input {
+  width: 40rem;
+  height: 3.2rem;
+  font-weight: 400;
+  font-family: Roboto, sans-serif, Arial;
+  font-size: 1.4rem;
+}
+.search-bar {
+  border: 5px solid lightgrey;
+  background-color: lightgrey;
+  height: 3.2rem;
+  width: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -1.8rem;
+}
+.search-button {
+  height: 1.8rem;
+  width: 1.8rem;
+  border: none;
+  cursor: pointer;
+}
+
+.left-side {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.left-header-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin-top: -2.6rem;
+}
+
+.icons {
+  margin-right: 1.6rem;
+  cursor: pointer;
+  color: gray;
+  font-size: 1.2rem;
+}
+.sign-in {
+  font-family: Roboto, sans-serif, Arial;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.video {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.title {
+  margin-top: 1.8rem;
+}
+
+.views {
+  margin-top: 3.2rem;
+}
+
+.video-text {
+  font-size: 1.8rem;
+  color: rgb(160, 160, 160);
+}
+
+.video-icons {
+  list-style: none;
+  height: 1.8rem;
+  width: 2.4rem;
+  display: flex;
+  flex-direction: row;
+  margin-top: -4.8rem;
+}
+.right-video-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 50rem;
+}
+.span-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  font-size: 1.1rem;
+  color: rgb(150, 150, 150);
+}
+.avatar {
+  border-radius: 50%;
+  margin-left: 2rem;
+}
+
+.profile-info-section {
+  display: flex;
+  flex: 1;
+}
+.subline {
+  color: black;
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.members {
+  margin-top: 3rem;
+  margin-left: -9rem;
+  font-size: 1.2rem;
+  color: rgb(150, 150, 150);
+  font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
+}
+.button {
+  background-color: #c00;
+  height: 4rem;
+  width: 11rem;
+  border-radius: 2px;
+  font-size: 1.4rem;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 60rem;
+  font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  border: 0px;
+}
+.caption-text {
+  color: black;
+  line-height: 4rem;
+  font-weight: 400;
+  margin-left: 8.5rem;
+}
+.show-more {
+  color: gray;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin-left: 8.5rem;
+}
+
+.comment {
+  margin-left: 2rem;
+  color: rgb(32, 32, 32);
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}
+
+.comments-section {
+  display: flex;
+  flex-direction: row;
+}
+.comment-picture {
+  margin-left: 10rem;
+  margin-top: 1.2rem;
+}
+.comment-text {
+  margin-left: 1rem;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: gray;
+}
+
+.avatar:nth-child(2) {
+  height: 100rem;
+}
+
+.section-comments {
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar-2 {
+  margin-top: 2rem;
+}
+.add-comment {
+  margin-left: 2rem;
+  color: rgb(119, 119, 119);
+  margin-top: 3.5rem;
+  font-size: 1.4rem;
+}
+.new-break {
+  margin-top: 6rem;
+  margin-left: -11.2rem;
+  width: 85rem;
+  background-color: lightgray;
+}
+.new-comments {
+  display: flex;
+  flex-direction: row;
+}
+
+.comments-published {
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  margin-top: 2.6rem;
+}
+.comments-name {
+  margin-top: 2.6rem;
+  margin-left: 2rem;
+}
+.comments-users {
+  color: black;
+  margin-left: 9rem;
+  margin-top: -2rem;
+  line-height: 2.2rem;
+}
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: 1.4rem;
+  margin-left: 9rem;
+  margin-top: 1.2rem;
+}
+
+.icons img {
+  width: 60%;
+}
+
+.span-text-side {
+  margin-left: -2rem;
+  margin-top: 0.3rem;
+}
+.url {
+  color: blue;
+}
+
+.main-recommend-section {
+  display: flex;
+  justify-content: flex-end;
+}
+.sidebar {
+  flex: 1;
+}
+
+.main-recommend-section {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  align-items: center;
+  padding: 0px;
+  margin-top: -28rem;
+}
+.up-next {
+  margin-right: 24.5rem;
+  font-size: 1.4rem;
+  color: black;
+  font-weight: 500;
+}
+.text-autoplay {
+  margin-right: 8rem;
+  color: gray;
+}
+.toogle {
+  margin-left: -6rem;
+  margin-top: 0.2rem;
+}
+
+.recommend {
+  display: flex;
+  margin-top: -35rem;
+  margin-left: -40rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-video {
+  color: black;
+  font-size: 1.4rem;
+  font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin-right: 2rem;
+  margin-top: -0.5rem;
+  line-height: 2rem;
+}
+
+.sub-text-video {
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  margin-right: 4rem;
+  margin-top: -1rem;
+  margin-top: 1rem;
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+}
+.break-space {
+  margin-top: 1rem;
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+}
+.image--2 {
+  margin-top: 24rem;
+  margin-right: -1rem;
+  margin-left: -2.5rem;
+}
+.text--1 {
+  margin-top: 25rem;
+  margin-right: 2rem;
+  margin-left: 2.8rem;
+}
+.image--3 {
+  margin-top: 47rem;
+}
+.text--2 {
+  margin-top: 47rem;
+  margin-right: 2rem;
+  margin-left: 2.2rem;
+}
