@@ -2,13 +2,15 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
 }
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
-  font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif, Arial, Helvetica;
   line-height: 1;
   font-weight: 400;
   width: 100%;
@@ -18,22 +20,26 @@ header {
   margin: 2.4rem;
   padding-top: 0.5rem;
 }
+
 main {
   background-color: rgb(247, 247, 247);
 }
+
 h2 {
   text-decoration: none;
   color: black;
   font-weight: 400;
-  font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif, Arial, Helvetica;
   line-height: 2.4rem;
 }
+
 h5 {
   color: black;
   font-size: 1.2rem;
   font-weight: 500;
-  font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif, Arial, Helvetica;
 }
+
 hr {
   height: 0.1rem;
   background-color: lightgray;
@@ -42,20 +48,24 @@ hr {
   width: 92rem;
   margin-top: 1rem;
 }
+
 .background-color {
   background-color: rgb(247, 247, 247);
 }
-.logo {
-  margin-left: 1.2rem;
-  cursor: pointer;
+
+.right-side {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .search-box {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -3rem;
 }
+
 .search-input {
   width: 40rem;
   height: 3.2rem;
@@ -63,6 +73,7 @@ hr {
   font-family: Roboto, sans-serif, Arial;
   font-size: 1.4rem;
 }
+
 .search-bar {
   border: 5px solid lightgrey;
   background-color: lightgrey;
@@ -73,17 +84,12 @@ hr {
   align-items: center;
   margin-left: -1.8rem;
 }
+
 .search-button {
   height: 1.8rem;
   width: 1.8rem;
   border: none;
   cursor: pointer;
-}
-
-.left-side {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
 }
 
 .left-header-icon {
@@ -92,7 +98,6 @@ hr {
   justify-content: space-around;
   align-items: center;
   list-style: none;
-  margin-top: -2.6rem;
 }
 
 .icons {
@@ -101,6 +106,7 @@ hr {
   color: gray;
   font-size: 1.2rem;
 }
+
 .sign-in {
   font-family: Roboto, sans-serif, Arial;
   font-size: 1.4rem;
@@ -135,6 +141,7 @@ hr {
   flex-direction: row;
   margin-top: -4.8rem;
 }
+
 .right-video-icons {
   display: flex;
   flex-direction: row;
@@ -142,6 +149,7 @@ hr {
   align-items: center;
   margin-left: 50rem;
 }
+
 .span-text {
   display: flex;
   flex-direction: row;
@@ -151,6 +159,7 @@ hr {
   font-size: 1.1rem;
   color: rgb(150, 150, 150);
 }
+
 .avatar {
   border-radius: 50%;
   margin-left: 2rem;
@@ -160,6 +169,7 @@ hr {
   display: flex;
   flex: 1;
 }
+
 .subline {
   color: black;
   font-weight: 400;
@@ -167,13 +177,15 @@ hr {
   margin-left: 2rem;
   margin-top: 1rem;
 }
+
 .members {
   margin-top: 3rem;
   margin-left: -9rem;
   font-size: 1.2rem;
   color: rgb(150, 150, 150);
-  font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif, Arial, Helvetica;
 }
+
 .button {
   background-color: #c00;
   height: 4rem;
@@ -183,16 +195,18 @@ hr {
   color: white;
   text-transform: uppercase;
   margin-left: 60rem;
-  font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif, Arial, Helvetica;
   font-weight: 500;
-  border: 0px;
+  border: 0;
 }
+
 .caption-text {
   color: black;
   line-height: 4rem;
   font-weight: 400;
   margin-left: 8.5rem;
 }
+
 .show-more {
   color: gray;
   text-transform: uppercase;
@@ -211,10 +225,12 @@ hr {
   display: flex;
   flex-direction: row;
 }
+
 .comment-picture {
   margin-left: 10rem;
   margin-top: 1.2rem;
 }
+
 .comment-text {
   margin-left: 1rem;
   margin-top: 2rem;
@@ -235,18 +251,21 @@ hr {
 .avatar-2 {
   margin-top: 2rem;
 }
+
 .add-comment {
   margin-left: 2rem;
   color: rgb(119, 119, 119);
   margin-top: 3.5rem;
   font-size: 1.4rem;
 }
+
 .new-break {
   margin-top: 6rem;
   margin-left: -11.2rem;
   width: 85rem;
   background-color: lightgray;
 }
+
 .new-comments {
   display: flex;
   flex-direction: row;
@@ -257,16 +276,19 @@ hr {
   margin-left: 0.5rem;
   margin-top: 2.6rem;
 }
+
 .comments-name {
   margin-top: 2.6rem;
   margin-left: 2rem;
 }
+
 .comments-users {
   color: black;
   margin-left: 9rem;
   margin-top: -2rem;
   line-height: 2.2rem;
 }
+
 .icons-container {
   display: flex;
   flex-direction: row;
@@ -284,14 +306,11 @@ hr {
   margin-left: -2rem;
   margin-top: 0.3rem;
 }
+
 .url {
   color: blue;
 }
 
-.main-recommend-section {
-  display: flex;
-  justify-content: flex-end;
-}
 .sidebar {
   flex: 1;
 }
@@ -299,21 +318,23 @@ hr {
 .main-recommend-section {
   display: flex;
   flex-direction: row;
-  flex-flow: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   margin-top: -28rem;
 }
+
 .up-next {
   margin-right: 24.5rem;
   font-size: 1.4rem;
   color: black;
   font-weight: 500;
 }
+
 .text-autoplay {
   margin-right: 8rem;
   color: gray;
 }
+
 .toogle {
   margin-left: -6rem;
   margin-top: 0.2rem;
@@ -330,7 +351,7 @@ hr {
 .text-video {
   color: black;
   font-size: 1.4rem;
-  font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif, Arial, Helvetica;
   font-weight: 500;
   margin-right: 2rem;
   margin-top: -0.5rem;
@@ -348,24 +369,29 @@ hr {
   line-height: 1.8rem;
   font-size: 1.2rem;
 }
+
 .break-space {
   margin-top: 1rem;
   line-height: 1.8rem;
   font-size: 1.2rem;
 }
+
 .image--2 {
   margin-top: 24rem;
   margin-right: -1rem;
   margin-left: -2.5rem;
 }
+
 .text--1 {
   margin-top: 25rem;
   margin-right: 2rem;
   margin-left: 2.8rem;
 }
+
 .image--3 {
   margin-top: 47rem;
 }
+
 .text--2 {
   margin-top: 47rem;
   margin-right: 2rem;
